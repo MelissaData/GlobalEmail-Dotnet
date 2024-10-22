@@ -37,8 +37,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Download this project
 ```
-$ git clone https://github.com/MelissaData/GlobalEmail-Dotnet.git
-$ cd GlobalEmail-Dotnet
+git clone https://github.com/MelissaData/GlobalEmail-Dotnet.git
+cd GlobalEmail-Dotnet
 ```
 ## Windows
 
@@ -79,15 +79,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ .\GlobalEmailDotnet.ps1
+	.\GlobalEmailDotnet.ps1
 	```
 
 - Command Line 
 
 	You can pass an email and license string into `-email` and `-license` parameters respectively to test the Cloud API. For example:
 	```
-    $ .\GlobalEmailDotnet.ps1 -email "Info@melissa.com"
-    $ .\GlobalEmailDotnet.ps1 -email "Info@melissa.com" -license "<your_license_string>"
+    .\GlobalEmailDotnet.ps1 -email "Info@melissa.com"
+    .\GlobalEmailDotnet.ps1 -email "Info@melissa.com" -license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for interactive line mode:
@@ -138,15 +138,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ ./GlobalEmailDotnet.sh
+	./GlobalEmailDotnet.sh
 	```
 
 - Command Line 
 
 	You can pass an email and license string into `--email` and `--license` parameters respectively to test the Cloud API. For example:
 	```
-    $ ./GlobalEmailDotnet.sh --email "Info@melissa.com"
-    $ ./GlobalEmailDotnet.sh --email "Info@melissa.com" --license "<your_license_string>"
+    ./GlobalEmailDotnet.sh --email "Info@melissa.com"
+    ./GlobalEmailDotnet.sh --email "Info@melissa.com" --license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for interactive line mode:
